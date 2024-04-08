@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shocket server</title>
-
-    <script src="https://www.gstatic.com/firebasejs/10.7.2/firebase-app-compat.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/10.7.2/firebase-firestore-compat.js"></script>
+</head>
+<body>
+    <h1>Private.html</h1>
+    <!-- <script src="https://www.gstatic.com/firebasejs/10.7.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.2/firebase-firestore-compat.js"></script> -->
     
-    <script src="socket.io/socket.io.js"></script>
-    <!-- <script src="https://cdn.socket.io/4.7.5/socket.io.min.js" integrity="sha384-2huaZvOR9iDzHqslqwpR87isEmrfxqyWOF7hr7BY6KG0+hVKLoEXMPUJw3ynWuhO" crossorigin="anonymous"></script> -->
+    
+    <!-- <script src="socket.io/socket.io.js"></script>
     <script>
         var socket = io();
         
@@ -17,19 +19,19 @@
             console.log('Cliente conectado en index...');
         });
         
+        
         socket.on('disconnect', function() {
             console.log('Cliente desssconectado en index...');
         });
         
+        
         socket.emit('mensaje', { nombre: 'Fran' });
+        
         
         socket.on('mensaje2', function(msg) {
             console.log('Oye esto...', msg); // se imprime en la consola de chrome
         });
         
-    </script>
-</head>
-<body>
-    <h1>Public.html ....</h1>
+    </script> -->
 </body>
 </html>
